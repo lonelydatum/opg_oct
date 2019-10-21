@@ -240,18 +240,19 @@ sup {
   height: 250px;
 }
 
-#banner:hover .cta2 {
+.cta2:hover {
   opacity: 1;
 }
 
-#banner:hover .cta {
+.cta2:hover + .cta {
   opacity: 0;
 }
 
 .replay {
-  -webkit-transform: translate(5px, 4px);
-  -ms-transform: translate(5px, 4px);
-  transform: translate(5px, 4px);
+  padding: 8px;
+  -webkit-transform: translate(-2px, -3px);
+  -ms-transform: translate(-2px, -3px);
+  transform: translate(-2px, -3px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

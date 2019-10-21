@@ -2,6 +2,8 @@
 'use strict';
 
 var start = function start() {
+
+	TweenLite.defaultEase = Power2.easeOut;
 	var tl = new TimelineMax();
 
 	var time = .6;

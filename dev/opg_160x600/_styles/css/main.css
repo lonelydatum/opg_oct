@@ -215,13 +215,17 @@ sup {
   opacity: 0;
 }
 
+.frame1 {
+  opacity: 1;
+}
+
 .bg1 {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transform: translate(-150px, -125px) scale(0.5, 0.5);
-  -ms-transform: translate(-150px, -125px) scale(0.5, 0.5);
-  transform: translate(-150px, -125px) scale(0.5, 0.5);
+  -webkit-transform: translate(-80px, -300px) scale(0.5, 0.5);
+  -ms-transform: translate(-80px, -300px) scale(0.5, 0.5);
+  transform: translate(-80px, -300px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -236,8 +240,8 @@ sup {
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
+  width: 160px;
+  height: 600px;
 }
 
 #banner:hover .cta2 {
@@ -249,18 +253,32 @@ sup {
 }
 
 .replay {
-  -webkit-transform: translate(5px, 6px);
-  -ms-transform: translate(5px, 6px);
-  transform: translate(5px, 6px);
+  -webkit-transform: translate(5px, 4px);
+  -ms-transform: translate(5px, 4px);
+  transform: translate(5px, 4px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  font-size: 11px;
+  font-size: 10px;
   color: white;
   cursor: pointer;
   font-family: sans-serif;
+  fill: white;
+}
+
+.replay svg {
+  width: 13px;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+.replay:hover {
+  fill: black;
+  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

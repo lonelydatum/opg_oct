@@ -1,4 +1,6 @@
 const start = ()=>{
+
+	TweenLite.defaultEase = Power2.easeOut
 	const tl = new TimelineMax()
 		
 	const time = .6

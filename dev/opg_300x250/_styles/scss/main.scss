@@ -29,15 +29,17 @@
 }
 
 
-#banner:hover .cta2{
+.cta2:hover{
 	opacity: 1;
 }
 
-#banner:hover .cta{
+.cta2:hover + .cta{
 	opacity: 0;
 }
 
 .replay{
+	// background-color: red;
+	padding: 8px;
 	svg{
 		width: 13px;
 		height: 12px;
@@ -45,7 +47,7 @@
 		top:2px;
 		left: 1px;
 	}
-	@include pos(5, 4);
+	@include pos(-2, -3);
 
 	span{
 
