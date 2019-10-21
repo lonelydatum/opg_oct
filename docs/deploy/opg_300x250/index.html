@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Created: Oct 21, 11:19</title>
+<title>Created: Oct 21, 11:22</title>
 <style>#banner{opacity: 0;}</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="ad.size" content="width=300, height=250">
@@ -34,5 +34,5 @@
 
 </body>
 <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.1.2_min.js"></script>
-<script>!function t(r,e,o){function a(n,i){if(!e[n]){if(!r[n]){var c="function"==typeof require&&require;if(!i&&c)return c(n,!0);if(f)return f(n,!0);var y=new Error("Cannot find module '"+n+"'");throw y.code="MODULE_NOT_FOUND",y}var u=e[n]={exports:{}};r[n][0].call(u.exports,function(t){var e=r[n][1][t];return a(e?e:t)},u,u.exports,t,r,e,o)}return e[n].exports}for(var f="function"==typeof require&&require,n=0;n<o.length;n++)a(o[n]);return a}({1:[function(t,r,e){"use strict";var o=function(){var t=new TimelineMax,r=.6;t.add("start"),t.set(".frame1",{opacity:1}),t.set(".frame2",{opacity:1}),t.add("t1"),t.from(".bg1",5,{scale:.8},"t1"),t.from(".bar",r,{y:"+=100",opacity:0},"t1+=.3"),t.from(".t1a",r,{y:"+=100",opacity:0},"t1+=.7"),t.from(".t1b",r,{y:"+=100",opacity:0},"t1+=.9"),t.add("f2",3),t.to(".frame1",.5,{y:-250},"f2"),t.from(".frame2",.5,{y:250},"f2"),t.from(".t2a",r,{y:"+=100",opacity:0},"f2+=.4"),t.from(".t2b",r,{y:"+=100",opacity:0},"f2+=.6"),t.from([".cta",".replay"],.5,{opacity:0}),t.gotoAndPlay("f2");var e=document.getElementById("replay");e.addEventListener("click",function(){t.gotoAndPlay("start")})};o(),r.exports={}},{}]},{},[1]);</script>
+<script>!function t(r,e,o){function a(n,i){if(!e[n]){if(!r[n]){var c="function"==typeof require&&require;if(!i&&c)return c(n,!0);if(f)return f(n,!0);var y=new Error("Cannot find module '"+n+"'");throw y.code="MODULE_NOT_FOUND",y}var u=e[n]={exports:{}};r[n][0].call(u.exports,function(t){var e=r[n][1][t];return a(e?e:t)},u,u.exports,t,r,e,o)}return e[n].exports}for(var f="function"==typeof require&&require,n=0;n<o.length;n++)a(o[n]);return a}({1:[function(t,r,e){"use strict";var o=function(){var t=new TimelineMax,r=.6;t.add("start"),t.set(".frame1",{opacity:1}),t.set(".frame2",{opacity:1}),t.add("t1"),t.from(".bg1",5,{scale:.8},"t1"),t.from(".bar",r,{y:"+=100",opacity:0},"t1+=.3"),t.from(".t1a",r,{y:"+=100",opacity:0},"t1+=.7"),t.from(".t1b",r,{y:"+=100",opacity:0},"t1+=.9"),t.add("f2",3),t.to(".frame1",.5,{y:-250},"f2"),t.from(".frame2",.5,{y:250},"f2"),t.from(".t2a",r,{y:"+=100",opacity:0},"f2+=.4"),t.from(".t2b",r,{y:"+=100",opacity:0},"f2+=.6"),t.from([".cta",".replay"],.5,{opacity:0});var e=document.getElementById("replay");e.addEventListener("click",function(){t.gotoAndPlay("start")})};o(),r.exports={}},{}]},{},[1]);</script>
 </html>

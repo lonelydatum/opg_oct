@@ -26,7 +26,7 @@ var start = function start() {
 	tl.from('.t2b', time, { y: '+=100', opacity: 0 }, "f2+=.6");
 	tl.from(['.cta', '.replay'], .5, { opacity: 0 });
 
-	tl.gotoAndPlay("f2");
+	// tl.gotoAndPlay("f2")
 
 	var replay = document.getElementById("replay");
 

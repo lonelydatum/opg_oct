@@ -25,7 +25,7 @@ const start = ()=>{
 	tl.from(['.cta', '.replay'], .5, {opacity:0})
 
 
-	tl.gotoAndPlay("f2")
+	// tl.gotoAndPlay("f2")
 
 	const replay = document.getElementById("replay")
 
