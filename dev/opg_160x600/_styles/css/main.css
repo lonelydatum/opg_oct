@@ -249,32 +249,18 @@ sup {
 }
 
 .replay {
-  -webkit-transform: translate(5px, 4px);
-  -ms-transform: translate(5px, 4px);
-  transform: translate(5px, 4px);
+  -webkit-transform: translate(5px, 6px);
+  -ms-transform: translate(5px, 6px);
+  transform: translate(5px, 6px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  font-size: 10px;
+  font-size: 11px;
   color: white;
   cursor: pointer;
   font-family: sans-serif;
-  fill: white;
-}
-
-.replay svg {
-  width: 13px;
-  height: 12px;
-  position: relative;
-  top: 2px;
-  left: 1px;
-}
-
-.replay:hover {
-  fill: black;
-  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

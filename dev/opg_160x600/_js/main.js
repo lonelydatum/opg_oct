@@ -22,10 +22,10 @@ const start = ()=>{
 	
 	tl.from('.t2a', time, {y:'+=100', opacity:0}, "f2+=.4")
 	tl.from('.t2b', time, {y:'+=100', opacity:0}, "f2+=.6")
-	tl.from(['.cta', '.replay'], .5, {opacity:0}, "f2+=1")
+	tl.from(['.cta', '.replay'], .5, {opacity:0})
 
 
-	// tl.gotoAndPlay("f2")
+	tl.gotoAndPlay("f2")
 
 	const replay = document.getElementById("replay")
 
