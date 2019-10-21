@@ -1,11 +1,14 @@
 const start = ()=>{
 
 	TweenLite.defaultEase = Power2.easeOut
-	const tl = new TimelineMax()
+	const tl = new TimelineMax({onComplete:()=>{
+		console.log('sdlfkj');
+	}})
 		
 	const time = .6
 
 	tl.add("start")
+
 	tl.set('.frame1', {opacity:1})
 	tl.set('.frame2', {opacity:1})
 
@@ -24,6 +27,7 @@ const start = ()=>{
 	
 	tl.from('.t2a', time, {y:'+=100', opacity:0}, "f2+=.4")
 	tl.from('.t2b', time, {y:'+=100', opacity:0}, "f2+=.6")
+	tl.set('.cta2', {display:'block'})
 	tl.from(['.cta', '.replay'], .5, {opacity:0}, "f2+=1")
 
 
