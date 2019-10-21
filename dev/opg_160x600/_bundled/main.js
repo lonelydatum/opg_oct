@@ -16,16 +16,20 @@ var start = function start() {
 	tl.from('.bg1', 5, { scale: .8 }, "t1");
 
 	tl.from('.bar', time, { y: '+=100', opacity: 0 }, "t1+=.3");
-	tl.from('.t1a', time, { y: '+=100', opacity: 0 }, "t1+=.7");
-	tl.from('.t1b', time, { y: '+=100', opacity: 0 }, "t1+=.9");
+	tl.from('.t1a', time, { y: '+=100', opacity: 0 }, "t1+=.5");
+	tl.from('.t1b', time, { y: '+=100', opacity: 0 }, "t1+=.6");
+	tl.from('.t1c', time, { y: '+=100', opacity: 0 }, "t1+=.7");
+	tl.from('.t1d', time, { y: '+=100', opacity: 0 }, "t1+=.8");
 
 	tl.add("f2", 3);
 
-	tl.to(".frame1", .5, { y: -250 }, "f2");
-	tl.from(".frame2", .5, { y: 250 }, "f2");
+	tl.to(".frame1", .8, { y: -600 }, "f2");
+	tl.from(".frame2", .8, { y: 600 }, "f2");
 
 	tl.from('.t2a', time, { y: '+=100', opacity: 0 }, "f2+=.4");
-	tl.from('.t2b', time, { y: '+=100', opacity: 0 }, "f2+=.6");
+	tl.from('.t2b', time, { y: '+=100', opacity: 0 }, "f2+=.5");
+	tl.from('.t2c', time, { y: '+=100', opacity: 0 }, "f2+=.6");
+	tl.from('.t2d', time, { y: '+=100', opacity: 0 }, "f2+=.7");
 	tl.from(['.cta', '.replay'], .5, { opacity: 0 }, "f2+=1");
 
 	// tl.gotoAndPlay("f2")
@@ -37,7 +41,7 @@ var start = function start() {
 	});
 };
 
-// start()
+start();
 
 module.exports = {};
 
