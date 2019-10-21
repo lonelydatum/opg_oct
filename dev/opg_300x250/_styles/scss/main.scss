@@ -17,7 +17,9 @@
 	@include pos-scale(-150, -125, .5);
 }
 
-
+.cta2{
+	opacity: 0;
+}
 
 #banner{
 	font-size: 20px;
@@ -26,3 +28,16 @@
 	height: 250px;
 }
 
+
+#banner:hover .cta2{
+	opacity: 1;
+}
+
+.replay{
+	@include pos(5, 6);
+	font-size: 11px;
+	color: white;
+	// background-color: red;
+	cursor: pointer;
+	font-family: sans-serif;
+}
