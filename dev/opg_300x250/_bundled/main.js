@@ -4,9 +4,7 @@
 var start = function start() {
 
 	TweenLite.defaultEase = Power2.easeOut;
-	var tl = new TimelineMax({ onComplete: function onComplete() {
-			console.log('sdlfkj');
-		} });
+	var tl = new TimelineMax();
 
 	var time = .6;
 
@@ -29,8 +27,9 @@ var start = function start() {
 
 	tl.from('.t2a', time, { y: '+=100', opacity: 0 }, "f2+=.4");
 	tl.from('.t2b', time, { y: '+=100', opacity: 0 }, "f2+=.6");
-	tl.set('.cta2', { display: 'block' });
+
 	tl.from(['.cta', '.replay'], .5, { opacity: 0 }, "f2+=1");
+	tl.set('.cta2', { display: 'block' });
 
 	// tl.gotoAndPlay("f2")
 
