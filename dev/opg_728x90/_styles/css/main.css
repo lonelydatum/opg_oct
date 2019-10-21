@@ -219,9 +219,9 @@ sup {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transform: translate(-150px, -125px) scale(0.5, 0.5);
-  -ms-transform: translate(-150px, -125px) scale(0.5, 0.5);
-  transform: translate(-150px, -125px) scale(0.5, 0.5);
+  -webkit-transform: translate(-364px, -45px) scale(0.5, 0.5);
+  -ms-transform: translate(-364px, -45px) scale(0.5, 0.5);
+  transform: translate(-364px, -45px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -236,8 +236,8 @@ sup {
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
+  width: 728px;
+  height: 90px;
 }
 
 .cta2:hover {
@@ -250,9 +250,9 @@ sup {
 
 .replay {
   padding: 8px;
-  -webkit-transform: translate(-2px, -3px);
-  -ms-transform: translate(-2px, -3px);
-  transform: translate(-2px, -3px);
+  -webkit-transform: translate(-2px, 61px);
+  -ms-transform: translate(-2px, 61px);
+  transform: translate(-2px, 61px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

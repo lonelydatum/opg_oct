@@ -15,14 +15,13 @@ var start = function start() {
 	tl.add("t1");
 	tl.from('.bg1', 5, { scale: .8 }, "t1");
 
-	tl.from('.bar', time, { y: '+=100', opacity: 0 }, "t1+=.3");
-	tl.from('.t1a', time, { y: '+=100', opacity: 0 }, "t1+=.7");
-	tl.from('.t1b', time, { y: '+=100', opacity: 0 }, "t1+=.9");
+	tl.from('.bar', time, { y: '+=70', opacity: 0 }, "t1+=.3");
+	tl.from('.t1a', time, { y: '+=70', opacity: 0 }, "t1+=.5");
 
 	tl.add("f2", 3);
 
-	tl.to(".frame1", .5, { y: -250 }, "f2");
-	tl.from(".frame2", .5, { y: 250 }, "f2");
+	tl.to(".frame1", .5, { y: -90 }, "f2");
+	tl.from(".frame2", .5, { y: 90 }, "f2");
 
 	tl.from('.t2a', time, { y: '+=100', opacity: 0 }, "f2+=.4");
 	tl.from('.t2b', time, { y: '+=100', opacity: 0 }, "f2+=.6");
