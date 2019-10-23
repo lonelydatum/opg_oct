@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Created: Oct 21, 1:53</title>
+<title>Created: Oct 23, 3:33</title>
 <style>#banner{opacity: 0;}</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="ad.size" content="width=160, height=600">
@@ -49,5 +49,9 @@
 
 </body>
 <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.1.2_min.js"></script>
+<script>var bannerId = document.getElementById("banner");
+	bannerId.addEventListener('click', function(){
+		eyeBuild.doClick(0);
+	})</script>
 <script>!function t(r,e,o){function a(i,n){if(!e[i]){if(!r[i]){var c="function"==typeof require&&require;if(!n&&c)return c(i,!0);if(f)return f(i,!0);var y=new Error("Cannot find module '"+i+"'");throw y.code="MODULE_NOT_FOUND",y}var u=e[i]={exports:{}};r[i][0].call(u.exports,function(t){var e=r[i][1][t];return a(e?e:t)},u,u.exports,t,r,e,o)}return e[i].exports}for(var f="function"==typeof require&&require,i=0;i<o.length;i++)a(o[i]);return a}({1:[function(t,r,e){"use strict";var o=function(){TweenLite.defaultEase=Power2.easeOut;var t=new TimelineMax,r=.6;t.add("start"),t.set(".frame1",{opacity:1}),t.set(".frame2",{opacity:1}),t.add("t1"),t.from(".bg1",5,{scale:.8},"t1"),t.from(".bar",r,{y:"+=100",opacity:0},"t1+=.3"),t.from(".t1a",r,{y:"+=100",opacity:0},"t1+=.5"),t.from(".t1b",r,{y:"+=100",opacity:0},"t1+=.6"),t.from(".t1c",r,{y:"+=100",opacity:0},"t1+=.7"),t.from(".t1d",r,{y:"+=100",opacity:0},"t1+=.8"),t.add("f2",3),t.to(".frame1",.8,{y:-600},"f2"),t.from(".frame2",.8,{y:600},"f2"),t.from(".t2a",r,{y:"+=100",opacity:0},"f2+=.4"),t.from(".t2b",r,{y:"+=100",opacity:0},"f2+=.5"),t.from(".t2c",r,{y:"+=100",opacity:0},"f2+=.6"),t.from(".t2d",r,{y:"+=100",opacity:0},"f2+=.7"),t.from([".cta",".replay"],.5,{opacity:0},"f2+=1");var e=document.getElementById("replay");e.addEventListener("click",function(){t.gotoAndPlay("start")})};o(),r.exports={}},{}]},{},[1]);</script>
 </html>
