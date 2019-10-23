@@ -29,7 +29,7 @@ const start = ()=>{
 	tl.from('.t2c', time, {y:'+=100', opacity:0}, "f2+=.6")
 	tl.from('.t2d', time, {y:'+=100', opacity:0}, "f2+=.7")
 	tl.from(['.cta', '.replay'], .5, {opacity:0}, "f2+=1")
-
+	tl.set('.cta2', {display:'block'})
 
 	// tl.gotoAndPlay("f2")
 

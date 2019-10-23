@@ -215,6 +215,10 @@ sup {
   opacity: 0;
 }
 
+.cta2 {
+  display: none;
+}
+
 .bg1 {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -276,10 +280,6 @@ sup {
 .replay:hover {
   fill: black;
   color: black;
-}
-
-.cta2 {
-  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

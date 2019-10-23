@@ -215,6 +215,10 @@ sup {
   opacity: 0;
 }
 
+.cta2 {
+  display: none;
+}
+
 .frame1 {
   opacity: 1;
 }
