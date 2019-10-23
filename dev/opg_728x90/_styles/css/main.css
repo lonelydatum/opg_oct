@@ -274,8 +274,8 @@ sup {
 }
 
 .replay:hover {
-  fill: black;
-  color: black;
+  fill: #CCC;
+  color: #CCC;
 }
 
 /*# sourceMappingURL=main.css.map */
